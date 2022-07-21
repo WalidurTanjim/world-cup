@@ -25,6 +25,39 @@ hr{
     color: #d3d3d3;
 }
 
+.social-media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social-media-icons li a{
+    padding: 7px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+    border: 1px solid #ffffff;
+    transition: .5s;
+}
+/* .social-media-icons li a i{
+    transition: .5s;
+} */
+.social-media-icons li a:hover{
+    transform: scale(1.1);
+}
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-instagram{
+    color: #e63889;
+}
+.fa-linkedin{
+    color: #0072b1;
+}
+.fa-twitter{
+    color: #00acee;
+}
+
 
 
 /* CSS media query start for mobile phone */
