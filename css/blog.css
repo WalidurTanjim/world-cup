@@ -108,11 +108,15 @@
         background-color: transparent;
     }
     .menu{
-        display: flex;
-
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;    
     }
     .menu a{
         border: 1px solid #808080;
+    }
+    .menu a:nth-child(2){
+        margin: 0;
     }
     .blogs{
         display: grid;
